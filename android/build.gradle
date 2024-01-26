@@ -22,8 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "fr.g123k.deviceapps"
     compileSdkVersion 34
-
     defaultConfig {
         minSdkVersion 21
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
